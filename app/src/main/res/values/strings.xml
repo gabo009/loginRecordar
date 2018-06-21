@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">loginRecordar</string>
+    <string name="hintusuario">Usuario</string>
+    <string name="hintcontrasena">Contraseña</string>
+    <string name="btningresar">ingresar</string>
+    <string name="chkrecordar_usuario">Recordar Usuario</string>
+    <string name="chkrecordar_contrasena">Recordar Contraseña</string>
+    <string name="hinttarea">Tarea</string>
+    <string name="hintdesc_tarea">Descripcion Tarea</string>
+    <string name="botonpostergar">postergar</string>
+    <string name="botonrealizada">realizada</string>
+    <string name="error">Contraseña incorrecta</string>
+</resources>

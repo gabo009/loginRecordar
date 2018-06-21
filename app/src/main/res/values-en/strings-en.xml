@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">loginRecordar</string>
+    <string name="hintusuario">User</string>
+    <string name="hintcontrasena">Pasword</string>
+    <string name="btningresar">enter</string>
+    <string name="chkrecordar_usuario">Remember User</string>
+    <string name="chkrecordar_contrasena">Remember Pasword</string>
+    <string name="hinttarea">Task</string>
+    <string name="hintdesc_tarea">Task Description</string>
+    <string name="botonpostergar">postpone</string>
+    <string name="botonrealizada">completed</string>
+    <string name="error">Wrong pasword</string>
+</resources>
