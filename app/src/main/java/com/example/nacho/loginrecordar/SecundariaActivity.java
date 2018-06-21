@@ -58,16 +58,16 @@ public class SecundariaActivity extends AppCompatActivity {
         lv_Tareas.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Tarea tarea = (Tarea)parent.getAdapter().getItem(position);
+                Tarea tarea = (Tarea) parent.getAdapter().getItem(position);
                 act_Tarea.setText(tarea.getTarea());
                 et_Descripcion.setText(tarea.getDescripcion());
             }
         });
+
     }
 
     private void leerSheredPreferences () {
         ArrayList<Tarea> tareasPendientes = new ArrayList();
-        tareasPendientes.clear();
 
         SharedPreferences pref = getSharedPreferences("TareasActivas", Context.MODE_PRIVATE);
         Map<String,?> tar = pref.getAll();
