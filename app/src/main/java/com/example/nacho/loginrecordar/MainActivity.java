@@ -73,13 +73,6 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences pref = getSharedPreferences("DatosUsuario", Context.MODE_PRIVATE);
         et_Usuario.setText(pref.getString("usuario", ""));
         et_Password.setText(pref.getString("contrasena", ""));
-
-        Map<String,?> keys = pref.getAll();
-        for (Map.Entry<String,?> llave:keys.entrySet() ){
-            Log.d("TAG_", llave.getKey() + " " + llave.getValue());
-        }
-
-
     }
 
     private void guardarUsuario (){
